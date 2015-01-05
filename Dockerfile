@@ -8,7 +8,7 @@ RUN apt-get install -y nunit
 # Install Node.js
 RUN apt-get install -y wget
 
-RUN apt-get install -y python g++ make 
+RUN apt-get install -y python-software-properties python g++ make
 
 RUN \
   cd /tmp && \
