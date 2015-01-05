@@ -8,6 +8,8 @@ RUN apt-get install -y nunit
 # Install Node.js
 RUN apt-get install wget
 
+RUN apt-get install python g++ make 
+
 RUN \
   cd /tmp && \
   wget http://nodejs.org/dist/node-latest.tar.gz && \
