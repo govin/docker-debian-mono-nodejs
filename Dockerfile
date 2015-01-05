@@ -6,9 +6,9 @@ MAINTAINER Govind Rajagopalan <govind@outlook.com>
 RUN apt-get install -y nunit
 
 # Install Node.js
-RUN apt-get install wget
+RUN apt-get install -y wget
 
-RUN apt-get install python g++ make 
+RUN apt-get install -y python g++ make 
 
 RUN \
   cd /tmp && \
