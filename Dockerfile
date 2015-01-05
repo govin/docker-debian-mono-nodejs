@@ -6,6 +6,8 @@ MAINTAINER Govind Rajagopalan <govind@outlook.com>
 RUN apt-get install -y nunit
 
 # Install Node.js
+RUN apt-get install wget
+
 RUN \
   cd /tmp && \
   wget http://nodejs.org/dist/node-latest.tar.gz && \
