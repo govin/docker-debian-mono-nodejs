@@ -12,6 +12,7 @@ RUN curl -sL https://deb.nodesource.com/setup | bash -
 RUN apt-get install -y nodejs
 
 # Install grunt-js
+RUN npm install -g grunt
 RUN npm install -g grunt-cli
 
 
