@@ -2,7 +2,7 @@ FROM govin/debian-mono
 
 MAINTAINER Govind R
 
-RUN apt-get update \
+RUN apt-get -y update \
 	&& apt-get install wget -y \
 	&& apt-get install curl -y \
 	&& curl -sL https://deb.nodesource.com/setup | bash - \
