@@ -5,6 +5,7 @@ MAINTAINER Govind R
 RUN apt-get -y update \
 	&& apt-get install wget -y \
 	&& apt-get install curl -y \
+	&& apt-get install -y git \
 	&& curl -sL https://deb.nodesource.com/setup | bash - \
 	&& apt-get install nodejs -y \
 	&& npm install -g grunt \
