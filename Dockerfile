@@ -13,6 +13,7 @@ RUN apt-get -y update \
 	&& npm install -g grunt-cli \
 	&& gem install less \
 	&& gem install sass \
+	&& gem install compass \
 	&& apt-get purge wget -y \
 	&& apt-get autoremove -y \
 	&& apt-get clean \
